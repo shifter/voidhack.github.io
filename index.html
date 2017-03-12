@@ -4,71 +4,101 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>VoidHack crew</title>
         <style>
-        div {
-            white-space: pre;
-            font-family: "Lucida Console", Monaco, monospace;
-            font-size: 11pt;
-            text-align: center;
-            color: #f8dfc2;
-        }
-        body {
-            background-color: #282b2f;
-        }
-        a {
-            color: #cd595a;
-        }
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+            div {
+                font-family: "Lucida Console", Monaco, monospace;
+                font-size: 11pt;
+            }
+
+            body {
+                color: #f8dfc2;
+                background-color: #282b2f;
+            }
+
+            a {
+                color: #cd595a;
+            }
+            hr {
+                color: #f8dfc2;
+                background-color: #f8dfc2;
+                width: 100%;
+                height: 1px;
+                margin: 10px 0;
+            }
+            .container {
+                width: 40%;
+                margin: 0 auto;
+            }
+            .new-container {
+                background-color: rgba(176, 158, 154, 0.2);
+                width: 100%;
+                padding: 30px;
+                margin-bottom: 30px;
+            }
+            .new-container h2 {
+                margin-bottom: 20px;
+            }
+            .heading {
+                text-align: center;
+            }
+            h1 {
+                margin: 30px;
+            }
+            ul {
+                margin-left: 20px;
+            }
         </style>
     </head>
     <body>
-<div><font size="5"><b>Welcome home, son!</b></font></div>
-<br>
-<div>+--------------------------------------------+
-| <b><u>В преддверии RuCTF</u></b>: занимаемся разбором    |
-| образа RuCTF 2015.                         |
-| <a href="http://bit.ly/2njjtMh">Образ сервера</a>                              |
-| <a href="http://bit.ly/2lIfsEA">Таблица сервисов</a>                           |
-+--------------------------------------------+</div>
-<br>
-<div>+--------------------------------------------+
-| <b><u>Ссылка на репозиторий GitHub</u></b>               |
-| <a href="https://github.com/VoidHack">VoidHack на GitHub</a>                         |
-| Там же находятся репозиторий с сайтом и    |
-| toolset. Будет неплохо, если вы будете     |
-| дополнять последний.                       |
-+--------------------------------------------+</div>
-<br>
-<div>+--------------------------------------------+
-| <b><u>Текущий календарь соревнований</u></b>             |
-| <font color=#fa6e6e>*</font> помечены важные игры, которые желательно |
-| сыграть <u>всем вместе</u>.                       |
-+--------------------------------------------+
-| <b><u>A</u></b> помечены игры типа <b>Attack-Defence</b>        |
-| <b><u>J</u></b> помечены игры типа <b>Jeopardy</b>              |
- | Данные по регистрации смотрите в           | 
-| чатике Телеграма                           |
-+--------------------------------------------+
-|                                            |
-| <b><font color=#6eabfa>J</font></b> [18 — 20 Марта] <a href="https://ctftime.org/event/402">0CTF 2017 Quals</a>          |
-|                                            |
-| <b><font color=#fa6e6e>J</font></b> [24 — 26 Марта] <a href="https://ctftime.org/event/374">VolgaCTF 2017 Quals</a>      |
-|                                            |
-| <b><font color=#6eabfa>J</font></b> [01 — 02 Апреля] <a href="https://ctftime.org/event/410">Nuit du Hack Quals</a>      |
-|                                            |
-| <b><font color=#fa6e6e>J</font></b> [07 — 09 Апреля] <a href="https://ctftime.org/event/364">ASIS CTF Quals 2017</a>     |
-                                  |                                            |                                  
-| <b><font color=#fa6e6e>A</font></b> [13 — 17 Апреля] <a href="https://ctftime.org/event/413">RuCTF Finals 2017</a>       |
-|                                            |
-| <b><font color=#6eabfa>J</font></b> [22 — 24 Апреля] <a href="https://ctftime.org/event/439">PlaidCTF 2017</a>           |
-|                                            |
-| <b><font color=#fa6e6e>A</font></b> [19 — 20 Мая] <a href="https://ctftime.org/event/428">FAUST CTF 2017</a>             |
-|                                            |
-| <b><font color=#6eabfa>J</font></b> [07 — 09 Июля] <a href="https://ctftime.org/event/425">PoliCTF 2017</a>              |
-+--------------------------------------------+</div>
-<br>
-<div>+--------------------------------------------+
-| <b><u>Почта команды</u></b>. Пароль от почты находится   |
-| в Телеграме                                |
-| <a href="voidhack.ctf@gmail.com">voidhack.ctf@gmail.com</a>                     |
-+--------------------------------------------+</div>
+        <div class="container">
+            <h1 class="heading">Welcome home, son!</h1>
+            <div class="new-container">
+                <h2>В преддверии RuCTF</h2>
+                <p>Занимаемся разбором образа RuCTF 2015.</p>
+                <ul>
+                    <li><a href="http://bit.ly/2njjtMh">Образ сервера</a></li>
+                    <li><a href="http://bit.ly/2lIfsEA">Таблица сервисов</a></li>
+                </ul>
+            </div>
+            <div class="new-container">
+                <h2>Ссылка на репозиторий GitHub</h2>
+                <a href="https://github.com/VoidHack">VoidHack на GitHub</a>
+                <p>Там же находятся репозиторий с сайтом и toolset. Будет неплохо, если вы будете дополнять последний.</p>
+            </div>
+            <div class="new-container">
+                <h2>Текущий календарь соревнований</h2>
+                <p><font color=#fa6e6e>*</font> помечены важные игры, которые желательно сыграть <u>всем вместе</u>.</p>
+                <hr />
+                <p><b><u>A</u></b> помечены игры типа <b>Attack-Defence</b></p>
+                <p><b><u>J</u></b> помечены игры типа <b>Jeopardy</b></p>
+                <p>Данные по регистрации смотрите в чатике Телеграма</p>
+            </div>
+            <div class="new-container">
+                <h2>Текущий календарь соревнований</h2>
+                <p><font color=#fa6e6e>*</font> помечены важные игры, которые желательно сыграть <u>всем вместе</u>.</p>
+                <hr />
+                <p><b><u>A</u></b> помечены игры типа <b>Attack-Defence</b></p>
+                <p><b><u>J</u></b> помечены игры типа <b>Jeopardy</b></p>
+                <p>Данные по регистрации смотрите в чатике Телеграма</p>
+                <hr />
+                <b><font color=#6eabfa>J</font></b> [18 — 20 Марта] <a href="https://ctftime.org/event/402">0CTF 2017 Quals</a><br />                                       
+                <b><font color=#fa6e6e>J</font></b> [24 — 26 Марта] <a href="https://ctftime.org/event/374">VolgaCTF 2017 Quals</a><br />
+                <b><font color=#6eabfa>J</font></b> [01 — 02 Апреля] <a href="https://ctftime.org/event/410">Nuit du Hack Quals</a><br />
+                <b><font color=#fa6e6e>J</font></b> [07 — 09 Апреля] <a href="https://ctftime.org/event/364">ASIS CTF Quals 2017</a><br />
+                <b><font color=#fa6e6e>A</font></b> [13 — 17 Апреля] <a href="https://ctftime.org/event/413">RuCTF Finals 2017</a><br />
+                <b><font color=#6eabfa>J</font></b> [22 — 24 Апреля] <a href="https://ctftime.org/event/439">PlaidCTF 2017</a><br />
+                <b><font color=#fa6e6e>A</font></b> [19 — 20 Мая] <a href="https://ctftime.org/event/428">FAUST CTF 2017</a><br />
+                <b><font color=#6eabfa>J</font></b> [07 — 09 Июля] <a href="https://ctftime.org/event/425">PoliCTF 2017</a>
+            </div>
+            <div class="new-container">
+                <h2>Почта команды</h2>
+                <p>Пароль от почты находится в Телеграме.</p>
+                <p><a href="mailto:voidhack.ctf@gmail.com">voidhack.ctf@gmail.com</a></p>
+            </div>
+        </div>
     </body>
 </html>
